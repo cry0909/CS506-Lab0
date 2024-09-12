@@ -15,7 +15,7 @@ def test_dot_product():
 def test_cosine_similarity():
     ### YOUR CODE HERE
     vector1 = np.array([1, 0, 0])
-    vector1 = np.array([0, 1, 0])
+    vector2 = np.array([0, 1, 0])
 
     
     result = cosine_similarity(vector1, vector2)
@@ -27,7 +27,7 @@ def test_cosine_similarity():
 def test_nearest_neighbor():
     ### YOUR CODE HERE
     target_vector = np.array([1,1,0])
-    vector = no.array([
+    vector = np.array([
         [0, 1, 0],
         [1, 1, 1],
         [1, 0, 0]
